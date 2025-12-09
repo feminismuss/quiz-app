@@ -1,8 +1,9 @@
 /* @import "./components/card.css";*/
 
 @import "/components/navigation.css";
-
 @import "/components/header.css";
+@import "global.css";
+
 .card-container {
   display: flex;
   flex-direction: column;
@@ -11,33 +12,33 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   width: 80%;
   height: 100%;
   background-color: whitesmoke;
-  border-radius: 5%;
-  border: 1px solid;
-  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 2px 4px 6px rgb(236, 199, 220);
+  padding: 10px;
 }
-li {
-  list-style: none;
+.card-tag {
+  display: inline;
+  border-radius: 5px;
+  background-color: rgb(203, 169, 188);
+  color: rgb(236, 199, 220);
+  font-size: 12px;
+  padding: 1%;
 }
-.header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: lightblue;
-  z-index: 2;
+.card-button {
+  background-color: rgb(236, 199, 220);
+  border-radius: 5px;
+  padding: 2%;
+  border: none;
 }
 
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: lightblue;
-}
 .main-content {
   position: absolute;
-  top: 20%;
+  top: 25%;
   width: 100%;
 }

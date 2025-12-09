@@ -2,7 +2,9 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: blanchedalmond;
+  border-top: 1px solid;
+  background-color: rgb(236, 199, 220);
+  padding: 2%;
 }
 .navigation {
   display: flex;
