@@ -1,0 +1,7 @@
+.footer {
+  position: fixed;
+  justify-content: space-evenly;
+  bottom: 0;
+  width: 100%;
+  background-color: blanchedalmond;
+}
