@@ -1,5 +1,5 @@
 /* @import "./components/card.css";*/
-
+@import "/components/header.css";
 .card-container {
   display: flex;
   flex-direction: column;
@@ -18,13 +18,7 @@
 li {
   list-style: none;
 }
-.header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: lightblue;
-  z-index: 2;
-}
+
 .footer {
   position: fixed;
   bottom: 0;
