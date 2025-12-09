@@ -1,0 +1,8 @@
+.cardcontainer {
+display: flex;
+flex-wrap: wrap;
+}
+
+.card {
+    background-color: lightblue;
+}
