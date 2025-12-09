@@ -1,5 +1,7 @@
 /* @import "./components/card.css";*/
 
+@import "/components/navigation.css";
+
 .card-container {
   display: flex;
   flex-direction: column;
@@ -25,12 +27,7 @@ li {
   background-color: lightblue;
   z-index: 2;
 }
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: lightblue;
-}
+
 .main-content {
   position: absolute;
   top: 20%;
