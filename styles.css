@@ -9,18 +9,15 @@
 
 .card {
   width: 80%;
-  height: 150px;
-  background-color: lightgoldenrodyellow;
+  height: 100%;
+  background-color: whitesmoke;
   border-radius: 5%;
-  border: 1p solid;
+  border: 1px solid;
+  padding: 5px;
 }
-.card-question {
-  color: gray;
+li {
+  list-style: none;
 }
-.card-button {
-  color: gray;
-}
-
 .header {
   position: fixed;
   top: 0;
