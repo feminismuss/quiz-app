@@ -1,7 +1,29 @@
 .footer {
   position: fixed;
-  justify-content: space-evenly;
   bottom: 0;
-  width: 100%;
-  background-color: blanchedalmond;
+  left: 0;
+  right: 0;
+  background-color: var(--color-card);
+  z-index: 100;
+}
+.footer__navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: var(--spacing);
+}
+.footer__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 8px;
+  border-radius: var(--border-radius);
+}
+.footer__link:hover {
+  background-color: #f5f5f5;
+}
+.footer__link--active {
+  background-color: #eceff1;
 }

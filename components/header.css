@@ -1,10 +1,17 @@
 .header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: blanchedalmond;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--color-card);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-l);
   text-align: center;
-  font-size: 20px;
-  z-index: 2;
+  margin-bottom: var(--spacing);
+}
+.header__title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #1a202c;
+  margin: 0 0 var(--spacing);
+}
+.header__subtitle {
+  color: #64748b;
+  margin-bottom: var(--spacing); /*coach fragen*/
 }

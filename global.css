@@ -1,0 +1,46 @@
+/*css custom properties/variables*/
+:root {
+  --color-background: #f5f5f5;
+  --color-card: #ffffff;
+  --color-accent: #e2e7e9;
+
+  --spacing: 16px;
+
+  --border-radius: 8px;
+}
+
+/*box-sizing reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--color-background);
+  color: #1a202c;
+  line-height: 1.5;
+}
+/*list reset*/
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/*button reset*/
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+/*link reset*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.main-content {
+  padding-bottom: 80px;
+  min-height: calc(100vh - 80px);
+}
