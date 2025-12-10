@@ -1,7 +1,7 @@
 .header {
   background-color: var(--color-card);
   border-radius: var(--border-radius);
-  padding: var(--spacing-l);
+  padding: var(--spacing);
   text-align: center;
   margin-bottom: var(--spacing);
 }
