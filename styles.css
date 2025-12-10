@@ -1,12 +1,6 @@
 @import "./components/card.css";
-
 @import "/components/navigation.css";
 @import "/components/header.css";
 @import "global.css";
 
 
-.main-content {
-  position: absolute;
-  top: 25%;
-  width: 100%;
-}

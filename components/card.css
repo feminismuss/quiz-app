@@ -1,8 +1,8 @@
 .card-list {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-m);
-  padding: var(--spacing-m);
+  gap: var(--spacing);
+  padding: var(--spacing);
 }
 @media (min-width: 768px) {
   .card-list {
@@ -10,85 +10,75 @@
     flex-wrap: wrap;
   }
 }
-@media (min-width: 1024px) {
-  .card-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: var(--spacing-l);
-  }
-}
+
 .card {
   position: relative;
   background-color: var(--color-card);
-  border-radius: var(--border-radius-m);
-  box-shadow: var(--border-radius-m);
-  padding: var(--spacing-l);
+  border-radius: var(--border-radius);
+  padding: var(--spacing);
   width: 100%;
 }
 @media (min-width: 768px) {
   .card {
-    width: calc(50% - var(--spacing-m) / 2);
+    width: calc(50% - var(--spacing) / 2);
   }
 }
 @media (min-width: 768px) {
   .card {
-    width: calc(33.333% - var(--spacing-l) * 2 / 3);
+    width: calc(33.333% - var(--spacing) * 2 / 3);
   }
 }
 
 .card__bookmark {
   position: absolute;
-  top: var(--spacing-m);
-  right: var(--spacing-m);
-
+  top: var(--spacing);
+  right: var(--spacing);
   background: none;
   border: none;
   padding: 0;
-
   cursor: pointer;
-  /*transition: tranform 0.2s ease;*/
+  /*transition: tranform 0.2s ease;  ??? coach fragen!*/
 }
 .card__bookmark:hover {
   transform: scale(1.1);
 }
 .card__question {
-  color: var(--color-text-primary);
+  color: #1a202c;
   font-size: 1.25rem;
   font-weight: 500;
-  margin: 0 0 var(--spacing-m) 0;
-  padding-right: var(--spacing-xl);
+  margin: 0 0 var(--spacing) 0;
+  padding-right: 40px;
 }
 
 .card__answer {
   color: var(--color-text-primary);
   /*font-size: 1.25rem;*/
   font-weight: 500;
-  margin: 0 0 var(--spacing-m) 0;
-  padding-right: var(--spacing-xl);
+  margin: 0 0 var(--spacing) 0;
+  padding-right: 40px;
 }
 
 .card__button {
   background-color: var(--color-accent);
-  padding: var(--spacing-s) var(--spacing-l);
+  padding: 12px var(--spacing);
   border: none;
-  border-radius: var(--border-radius-m);
+  border-radius: var(--border-radius);
   width: 100%;
   cursor: pointer;
 }
 .card__button:hover {
-  background-color: var(--color-accent-hover);
+  background-color: #455a64;
 }
 
 .card__tag-list {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--spacing-s);
-  margin-top: var(--spacing-m);
+  gap: 8px;
+  margin-top: var(--spacing);
 }
 .card__tag {
-  display: inline;
-  border-radius: var(--border-radius-l);
+  border-radius: var(--border-radius);
   background-color: #eceff1;
-  padding: var(--spacing-xs) var(--spacing-s);
+  padding: 4px 12px;
   font-size: 0.75rem;
 }

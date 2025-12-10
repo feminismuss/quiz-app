@@ -3,43 +3,25 @@
   --color-background: #f5f5f5;
   --color-card: #ffffff;
   --color-accent: #e2e7e9;
-  --color-accent-hover: #455a64;
 
-  --color-text-primary: #1a202c;
-  --color-text-secondary: #64748b;
+  --spacing: 16px;
 
-  --color-border: #e0e0e0;
-  --color-shadow: rgba(0, 0, 0, 0 0.1);
-
-  --spacing-xs: 4px;
-  --spacing-s: 8px;
-  --spacing-m: 16px;
-  --spacing-l: 24px;
-  --spacing-xl: 32px;
-
-  --border-radius-s: 4px;
-  --border-radius-m: 8px;
-  --border-radius-l: 12px;
-
-  --shadow-s: 0 1px 3px var(--color-shadow);
-  --shadow-m: 0 2px 8px var(--color-shadow);
+  --border-radius: 8px;
 }
+
 /*box-sizing reset*/
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-/*body and html base styles
-html {
-  font-size: 16px;
-}*/
+
 body {
   margin: 0;
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: var(--color-background);
-  color: var(--color-text-primary);
+  color: #1a202c;
   line-height: 1.5;
 }
 /*list reset*/
@@ -57,4 +39,8 @@ button {
 a {
   text-decoration: none;
   color: inherit;
+}
+.main-content {
+  padding-bottom: 80px;
+  min-height: calc(100vh - 80px);
 }

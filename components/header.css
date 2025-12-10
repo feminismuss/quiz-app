@@ -1,18 +1,17 @@
 .header {
   background-color: var(--color-card);
-  border-radius: var(--border-radius-m);
-  box-shadow: var(--shadow-s);
+  border-radius: var(--border-radius);
   padding: var(--spacing-l);
   text-align: center;
-  margin-bottom: var(--spacing-l);
+  margin-bottom: var(--spacing);
 }
 .header__title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
-  color: var(--color-text-primary);
-  margin: 0 0 var(--spacing-s);
+  color: #1a202c;
+  margin: 0 0 var(--spacing);
 }
 .header__subtitle {
-  color: var(--color-text-secundary);
-  margin: 0;
+  color: #64748b;
+  margin-bottom: var(--spacing); /*coach fragen*/
 }
