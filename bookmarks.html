@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <p class="header__title">Quiz App</p>
+      <p class="header__subtitle">Your favourite Questions</p>
+    </header>
+    <main class="main-content">
+      <ul class="card-list">
+        <li class="card">
+          <button class="card__bookmark" aria-label="Bookmark this question?">
+            <img src="assets/bookmark.png" alt="bookmarkbutton" />
+          </button>
+          <button
+            class="card__bookmark"
+            aria-label="Remove bookmark?"
+          >
+            <img src="assets/bookmark-check.png" alt="bookmarkbutton" />
+          </button>
+          <p class="card__question">What does css stand for?</p>
+          <p class="card__answer card__answer--hidden">
+            Cascading Style Sheets
+          </p>
+          <button class="card__button">Show answer!</button>
+          <ul class="card__tag-list">
+            <li class="card__tag">definition</li>
+            <li class="card__tag">Fundamentals</li>
+          </ul>
+        </li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <nav class="footer__navigation">
+        <a
+          href="index.html"
+          class="footer__link"
+          aria-label="Home"
+          ><img src="./assets/house.png" alt=""
+        /></a>
+        <a href="bookmarks.html" class="footer__link footer__link--active" aria-label="Bookmarks"
+          ><img src="/assets/bookmark.png" alt=""
+        /></a>
+        <a href="profile.html" class="footer__link" aria-label="Profile"
+          ><img src="/assets/user-round.png" alt=""
+        /></a>
+      </nav>
+    </footer>
+  </body>
+</html>
