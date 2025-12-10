@@ -23,14 +23,150 @@
           >
             <img src="assets/bookmark-check.png" alt="bookmarkbutton" />
           </button>
-          <p class="card__question">What does css stand for?</p>
+          <p class="card__question">
+            Why use calc(50% - 16px) instead of just 50% for card width?
+          </p>
           <p class="card__answer card__answer--hidden">
-            Cascading Style Sheets
+            To account for the gap between cards. Pure 50% would make cards too
+            wide when there's spacing between them.
           </p>
           <button class="card__button">Show answer!</button>
           <ul class="card__tag-list">
-            <li class="card__tag">definition</li>
-            <li class="card__tag">Fundamentals</li>
+            <li class="card__tag">css</li>
+            <li class="card__tag">layout</li>
+            <li class="card__tag">calc</li>
+          </ul>
+        </li>
+        <li class="card">
+          <button class="card__bookmark" aria-label="Bookmark this question?">
+            <img src="assets/bookmark.png" alt="bookmarkbutton" />
+          </button>
+          <button class="card__bookmark" aria-label="Remove bookmark?">
+            <img src="assets/bookmark-check.png" alt="bookmarkbutton" />
+          </button>
+          <p class="card__question">What does flex-wrap: wrap do?</p>
+          <p class="card__answer card__answer--hidden">
+            It allows flex items to wrap onto multiple lines when they don't fit
+            in one line, instead of shrinking or overflowing.
+          </p>
+          <button class="card__button">Show answer!</button>
+          <ul class="card__tag-list">
+            <li class="card__tag">css</li>
+            <li class="card__tag">flexbox</li>
+            <li class="card__tag">layout</li>
+          </ul>
+        </li>
+        <li class="card">
+          <button class="card__bookmark" aria-label="Bookmark this question?">
+            <img src="assets/bookmark.png" alt="bookmarkbutton" />
+          </button>
+          <button
+            class="card__bookmark card__bookmark--active"
+            aria-label="Remove bookmark?"
+          >
+            <img src="assets/bookmark-check.png" alt="bookmarkbutton" />
+          </button>
+          <p class="card__question">What does z-index control in CSS?</p>
+          <p class="card__answer card__answer--hidden">
+            It controls the stacking order of positioned elements. Higher values
+            appear on top of lower values.
+          </p>
+          <button class="card__button">Show answer!</button>
+          <ul class="card__tag-list">
+            <li class="card__tag">css</li>
+            <li class="card__tag">positoning</li>
+            <li class="card__tag">z-index</li>
+          </ul>
+        </li>
+        <li class="card">
+          <button class="card__bookmark" aria-label="Bookmark this question?">
+            <img src="assets/bookmark.png" alt="bookmarkbutton" />
+          </button>
+          <button
+            class="card__bookmark card__bookmark--active"
+            aria-label="Remove bookmark?"
+          >
+            <img src="assets/bookmark-check.png" alt="bookmarkbutton" />
+          </button>
+          <p class="card__question">
+            Why do we use CSS Custom Properties(variables)?
+          </p>
+          <p class="card__answer card__answer--hidden">
+            To manage values centrally in one place. When you change a variable,
+            it updates everywhere it's used automatically.
+          </p>
+          <button class="card__button">Show answer!</button>
+          <ul class="card__tag-list">
+            <li class="card__tag">css</li>
+            <li class="card__tag">variables</li>
+          </ul>
+        </li>
+        <li class="card">
+          <button class="card__bookmark" aria-label="Bookmark this question?">
+            <img src="assets/bookmark.png" alt="bookmarkbutton" />
+          </button>
+          <button
+            class="card__bookmark card__bookmark--active"
+            aria-label="Remove bookmark?"
+          >
+            <img src="assets/bookmark-check.png" alt="bookmarkbutton" />
+          </button>
+          <p class="card__question">What is :root in CSS?</p>
+          <p class="card__answer">
+            :root is a selector that targets the top-most element (html element)
+            and is used to define CSS Custom Properties that are available
+            everywhere.
+          </p>
+          <button class="card__button">Show answer!</button>
+          <ul class="card__tag-list">
+            <li class="card__tag">css</li>
+            <li class="card__tag">selectors</li>
+          </ul>
+        </li>
+        <li class="card">
+          <button class="card__bookmark" aria-label="Bookmark this question?">
+            <img src="assets/bookmark.png" alt="bookmarkbutton" />
+          </button>
+          <button
+            class="card__bookmark card__bookmark--active"
+            aria-label="Remove bookmark?"
+          >
+            <img src="assets/bookmark-check.png" alt="bookmarkbutton" />
+          </button>
+          <p class="card__question">What does inherit do in CSS?</p>
+          <p class="card__answer card__answer--hidden">
+            It makes an element take the same property value as its parent
+            element.
+          </p>
+          <button class="card__button">Show answer!</button>
+          <ul class="card__tag-list">
+            <li class="card__tag">css</li>
+            <li class="card__tag">positoning</li>
+          </ul>
+        </li>
+        <li class="card">
+          <button class="card__bookmark" aria-label="Bookmark this question?">
+            <img src="assets/bookmark.png" alt="bookmarkbutton" />
+          </button>
+          <button
+            class="card__bookmark card__bookmark--active"
+            aria-label="Remove bookmark?"
+          >
+            <img src="assets/bookmark-check.png" alt="bookmarkbutton" />
+          </button>
+          <p class="card__question">
+            What's the difference between position: fixed and position:
+            absolute?
+          </p>
+          <p class="card__answer card__answer--hidden">
+            Fixed positions an an element relative to the browser window and it
+            stays in place when scrolling. Absolute positions relative to the
+            nearest positioned parent and scrolls with the content.
+          </p>
+          <button class="card__button">Show answer!</button>
+          <ul class="card__tag-list">
+            <li class="card__tag">css</li>
+            <li class="card__tag">positoning</li>
           </ul>
         </li>
       </ul>
