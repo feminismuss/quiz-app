@@ -2,7 +2,7 @@
 :root {
   --color-background: #f5f5f5;
   --color-card: #ffffff;
-  --color-accent: #546e7a;
+  --color-accent: #e2e7e9;
   --color-accent-hover: #455a64;
 
   --color-text-primary: #1a202c;
@@ -30,10 +30,10 @@
 *::after {
   box-sizing: border-box;
 }
-/*body and html base styles*/
+/*body and html base styles
 html {
   font-size: 16px;
-}
+}*/
 body {
   margin: 0;
   padding: 0;

@@ -1,15 +1,94 @@
-.cardcontainer {
+.card-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 10px;
+  gap: var(--spacing-m);
+  padding: var(--spacing-m);
+}
+@media (min-width: 768px) {
+  .card-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1024px) {
+  .card-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--spacing-l);
+  }
+}
+.card {
+  position: relative;
+  background-color: var(--color-card);
+  border-radius: var(--border-radius-m);
+  box-shadow: var(--border-radius-m);
+  padding: var(--spacing-l);
   width: 100%;
 }
+@media (min-width: 768px) {
+  .card {
+    width: calc(50% - var(--spacing-m) / 2);
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    width: calc(33.333% - var(--spacing-l) * 2 / 3);
+  }
+}
 
-.card {
+.card__bookmark {
+  position: absolute;
+  top: var(--spacing-m);
+  right: var(--spacing-m);
+
+  background: none;
+  border: none;
+  padding: 0;
+
+  cursor: pointer;
+  /*transition: tranform 0.2s ease;*/
+}
+.card__bookmark:hover {
+  transform: scale(1.1);
+}
+.card__question {
+  color: var(--color-text-primary);
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0 0 var(--spacing-m) 0;
+  padding-right: var(--spacing-xl);
+}
+
+.card__answer {
+  color: var(--color-text-primary);
+  /*font-size: 1.25rem;*/
+  font-weight: 500;
+  margin: 0 0 var(--spacing-m) 0;
+  padding-right: var(--spacing-xl);
+}
+
+.card__button {
+  background-color: var(--color-accent);
+  padding: var(--spacing-s) var(--spacing-l);
+  border: none;
+  border-radius: var(--border-radius-m);
+  width: 100%;
+  cursor: pointer;
+}
+.card__button:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.card__tag-list {
   display: flex;
-  justify-content: center;
-  width: 80%;
-  height: 150px;
-  background-color: lightblue;
+  flex-wrap: wrap;
+  gap: var(--spacing-s);
+  margin-top: var(--spacing-m);
+}
+.card__tag {
+  display: inline;
+  border-radius: var(--border-radius-l);
+  background-color: #eceff1;
+  padding: var(--spacing-xs) var(--spacing-s);
+  font-size: 0.75rem;
 }
