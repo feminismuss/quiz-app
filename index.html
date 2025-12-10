@@ -8,26 +8,36 @@
   </head>
   <body>
     <header class="header">
-      <p>Quiz App</p>
-      <p>test your knowledge about css</p>
+      <p class="header__title">Quiz App</p>
+      <p class="header__subtitle">test your knowledge about css</p>
     </header>
     <main class="main-content">
-      <ul class="card-container">
+      <ul class="card-list">
         <li class="card">
-          <p class="card-question">What does css stand for?</p>
-          <button class="card-button">Show answer!</button>
-          <ul>
-            <li class="card-tag">definition</li>
-            <li class="card-tag">Fundamentals</li>
+          <button class="card__bookmark" aria-label="Bookmark this question?">
+            <img src="assets/bookmark.png" alt="bookmarkbutton" />
+          </button>
+          <p class="card__question">What does css stand for?</p>
+          <p class="card__answer">Cascading Style Sheets</p>
+          <button class="card__button">Show answer!</button>
+          <ul class="card__tag-list">
+            <li class="card__tag">definition</li>
+            <li class="card__tag">Fundamentals</li>
           </ul>
         </li>
       </ul>
     </main>
     <footer class="footer">
-      <nav class="navigation">
-        <a href="index.html"><img src="./assets/house.png" alt="" /></a>
-        <a href="bookmarks.html"><img src="/assets/bookmark.png" alt="" /></a>
-        <a href="profile.html"><img src="/assets/user-round.png" alt="" /></a>
+      <nav class="footer__navigation">
+        <a href="index.html" class="footer__link"
+          ><img src="./assets/house.png" alt=""
+        /></a>
+        <a href="bookmarks.html" class="footer__link"
+          ><img src="/assets/bookmark.png" alt=""
+        /></a>
+        <a href="profile.html" class="footer__link"
+          ><img src="/assets/user-round.png" alt=""
+        /></a>
       </nav>
     </footer>
   </body>
