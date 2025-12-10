@@ -23,7 +23,7 @@
     width: calc(50% - var(--spacing) / 2);
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .card {
     width: calc(33.333% - var(--spacing) * 2 / 3);
   }
