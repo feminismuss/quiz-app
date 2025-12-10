@@ -1,12 +1,6 @@
-* {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(187, 10, 110);
-}
-li {
-  list-style: none;
-}
+/*css custom properties/variables*/
 :root {
-  --color-backgrounnd: #f5f5f5;
+  --color-background: #f5f5f5;
   --color-card: #ffffff;
   --color-accent: #546e7a;
   --color-accent-hover: #455a64;
@@ -29,4 +23,38 @@ li {
 
   --shadow-s: 0 1px 3px var(--color-shadow);
   --shadow-m: 0 2px 8px var(--color-shadow);
+}
+/*box-sizing reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*body and html base styles*/
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  line-height: 1.5;
+}
+/*list reset*/
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/*button reset*/
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+/*link reset*/
+a {
+  text-decoration: none;
+  color: inherit;
 }
