@@ -42,6 +42,9 @@
 .card__bookmark:hover {
   transform: scale(1.1);
 }
+.card__bookmark--active {
+  display: none;
+}
 .card__question {
   color: #1a202c;
   font-size: 1.25rem;
@@ -58,7 +61,7 @@
   padding-right: 40px;
 }
 .card__answer--hidden {
-    display: none;
+  display: none;
 }
 
 .card__button {

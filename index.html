@@ -17,8 +17,16 @@
           <button class="card__bookmark" aria-label="Bookmark this question?">
             <img src="assets/bookmark.png" alt="bookmarkbutton" />
           </button>
+          <button
+            class="card__bookmark card__bookmark--active"
+            aria-label="Remove bookmark?"
+          >
+            <img src="assets/bookmark-check.png" alt="bookmarkbutton" />
+          </button>
           <p class="card__question">What does css stand for?</p>
-          <p class="card__answer card__answer--hidden">Cascading Style Sheets</p>
+          <p class="card__answer card__answer--hidden">
+            Cascading Style Sheets
+          </p>
           <button class="card__button">Show answer!</button>
           <ul class="card__tag-list">
             <li class="card__tag">definition</li>
@@ -29,7 +37,10 @@
     </main>
     <footer class="footer">
       <nav class="footer__navigation">
-        <a href="index.html" class="footer__link footer__link--active" aria-label="Home"
+        <a
+          href="index.html"
+          class="footer__link footer__link--active"
+          aria-label="Home"
           ><img src="./assets/house.png" alt=""
         /></a>
         <a href="bookmarks.html" class="footer__link" aria-label="Bookmarks"
