@@ -4,6 +4,7 @@
   left: 0;
   right: 0;
   background-color: var(--color-card);
+  border-radius: var(--border-radius);
   z-index: 100;
 }
 .footer__navigation {
