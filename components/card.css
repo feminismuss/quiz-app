@@ -37,7 +37,7 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  /*transition: tranform 0.2s ease;  ??? coach fragen!*/
+  transition: transform 0.2s ease;
 }
 .card__bookmark:hover {
   transform: scale(1.1);
