@@ -54,7 +54,7 @@
 }
 
 .card__answer {
-  color: var(--color-text-primary);
+  color: #77b7a0;
   /*font-size: 1.25rem;*/
   font-weight: 500;
   margin: 0 0 var(--spacing) 0;
