@@ -43,7 +43,7 @@
   transform: scale(1.1);
 }
 .card__bookmark--active {
-  display: none;
+  color: #77b7a0;
 }
 .card__question {
   color: #1a202c;
