@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Question - Quiz App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./js/form.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <p class="header__title">Quiz App</p>
+      <p class="header__subtitle">add your own question</p>
+    </header>
+
+    <main class="main-content">
+      <!-- Das Formular zum Hinzufügen neuer Fragen -->
+      <form class="form" data-js="question-form">
+        <!-- Feld für die Frage -->
+        <label for="question" class="form__label">Your question:</label>
+        <textarea
+          id="question"
+          name="question"
+          class="form__textarea"
+          rows="5"
+          maxlength="150"
+          placeholder="Enter your question here..."
+          required
+        ></textarea>
+
+        <!-- Feld für die Antwort -->
+        <label for="answer" class="form__label">Your answer:</label>
+        <textarea
+          id="answer"
+          name="answer"
+          class="form__textarea"
+          rows="5"
+          maxlength="150"
+          placeholder="Enter your answer here..."
+          required
+        ></textarea>
+
+        <!-- Feld für den Tag -->
+        <label for="tag" class="form__label">Tag:</label>
+        <input
+          type="text"
+          id="tag"
+          name="tag"
+          class="form__input"
+          placeholder="e.g. css, javascript, html..."
+          required
+        />
+
+        <!-- Submit Button -->
+        <button type="submit" class="form__button">Submit</button>
+      </form>
+
+      <!-- Hier werden die neuen Karten angezeigt -->
+      <h2 class="section-title">Your new questions:</h2>
+      <ul class="card-list" data-js="card-list">
+        <!-- Neue Karten werden hier mit JavaScript eingefügt -->
+      </ul>
+    </main>
+
+    <footer class="footer">
+      <nav class="footer__navigation">
+        <a href="index.html" class="footer__link" aria-label="Home">
+          <img src="./assets/house.png" alt="" />
+        </a>
+        <a href="bookmarks.html" class="footer__link" aria-label="Bookmarks">
+          <img src="./assets/bookmark.png" alt="" />
+        </a>
+        <a
+          href="form.html"
+          class="footer__link footer__link--active"
+          aria-label="Add Question"
+        >
+          <img src="./assets/circle-question-mark.png" alt="" />
+        </a>
+        <a href="profile.html" class="footer__link" aria-label="Profile">
+          <img src="./assets/user-round.png" alt="" />
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
