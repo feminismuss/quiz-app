@@ -38,3 +38,7 @@ function handleAnswerButtonClick() {
 // Finde den "Show answer!" Button und füge einen Click-Listener hinzu
 const answerButton = document.querySelector('.card__button');
 answerButton.addEventListener('click', handleAnswerButtonClick);
+
+// ============================================
+// Formularaction
+// ============================================
